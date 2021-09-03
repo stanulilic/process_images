@@ -11,7 +11,7 @@ async function addTextOnImage() {
       <style>
       .title { fill: #001; font-size: 70px; font-weight: bold;}
       </style>
-      <text x="51%" y="50%" text-anchor="middle" class="title">${text}</text>
+      <text x="50%" y="50%" text-anchor="middle" class="title">${text}</text>
     </svg>
     `;
     const svgBuffer = Buffer.from(svgImage);

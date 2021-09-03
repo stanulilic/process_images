@@ -3,7 +3,7 @@
 This repo contains sample code for a tutorial to be published soon.
 
 ## Set Up
-To clone repository, run `git clone`
+To clone repository, run `git clone`.
 
 ```git clone https://github.com/stanulilic/process_images.git```
 
