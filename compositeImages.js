@@ -2,15 +2,15 @@ const sharp = require("sharp");
 
 async function compositeImages() {
   try {
-    await sharp("sammy.png")
+    await sharp("underwater.png")
       .composite([
         {
-          input: "logo.png",
+          input: "sammy-transparent.png",
           top: 300,
           left: 420,
         },
       ])
-      .toFile("sammy-watermarked.png");
+      .toFile("sammy-underwater.png");
   } catch (error) {
     console.log(error);
   }
